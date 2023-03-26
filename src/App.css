@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  background-color: rgb(57, 112, 104);
+  color: rgb(49, 13, 49);
+}
+
+.sitetitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  margin-top: -3%;
+  margin-left: -1%;
+  font-size: 18px;
+  list-style-type: none;
+}
+.nav-item {
+  margin: 2px;
+}
+
+.work {
+  display: inline-block;
+}
+
+.aboutmesection {
+  display: block;
+  margin-left: 36%;
+  max-width: 30%;
+  position: center;
+}
+
+.project {
+  display: block;
+  max-width: 40%;
+  max-height: 25%;
+  border: 3px solid rgb(49, 13, 49);
+  margin: 1%;
+  padding: 1%;
+}
+
+.project img {
+  max-width: 95%;
+  max-height: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.profilepic {
+  max-width: 66%;
+}

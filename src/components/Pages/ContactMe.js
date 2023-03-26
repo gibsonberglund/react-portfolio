@@ -3,7 +3,10 @@ import React from 'react';
 function ContactMe() {
     return (
         <div>
-            <p>This is the contact page</p>
+            <input type='text' className='emailinput' placeholder='Email'></input>
+            <input type='text' className='nameinput' placeholder='Name'></input>
+            <input type='text' className='messageinput' placeholder='Message'></input>
+            <btn className='submitbtn'>Submit</btn>
         </div>
     )
 };
