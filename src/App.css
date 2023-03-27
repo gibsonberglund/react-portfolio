@@ -108,6 +108,7 @@
   display: block;
   width: 75%;
   margin: 1%;
+  padding: 1%;
 }
 
 .largeinput {
@@ -115,6 +116,8 @@
   width: 75%;
   height: 25%;
   margin: 1% 1% 3% 1%;
+  padding: 1%;
+  font-size: 14px;
 }
 
 .submitbtn {
@@ -131,6 +134,31 @@
 .resumelink {
   display: flex;
   justify-content: center;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: rgb(49, 13, 49);
+}
+
+.nav-link-active {
+  color: rgb(197, 107, 197);
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.601);
+  margin: 1%;
+}
+
+.project p {
+  color: rgb(197, 107, 197);
+  display: flex;
+  justify-content: center;
+}
+
+.githublink {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 468px) {
@@ -139,6 +167,9 @@
   }
   .submitbtn {
     margin-left: 30%;
+  }
+  .aboutmesection h2 {
+    margin-left: 33%;
   }
 }
 
@@ -164,7 +195,7 @@
     max-width: 75%;
   }
   .submitbtn {
-    margin-left: 35%;
+    margin-left: 36%;
   }
 }
 
