@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
 <div>
-    <a href='../../assets/Gibson-Berglund-Resume.docx' download>Click here to download a copy of my resume</a>
+    <a className='resumelink' href='../../assets/Gibson-Berglund-Resume-PDF.pdf' download>Click here to download a copy of my resume</a>
 </div>
     );
 };
