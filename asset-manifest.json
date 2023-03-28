@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.104a1898.css",
-    "main.js": "/static/js/main.a1ef3d20.js",
-    "static/media/betterreadsscreenshot.png": "/static/media/betterreadsscreenshot.cc6e493a6958daf99101.png",
-    "static/media/crypto-gif-screenshot.png": "/static/media/crypto-gif-screenshot.aae4f9e1e261a23ba01b.png",
-    "static/media/profile-photo.JPG": "/static/media/profile-photo.5fce2480e97c8d5c8904.JPG",
-    "static/media/team-profiler-screenshot.png": "/static/media/team-profiler-screenshot.7f18b536734c3f2daf3b.png",
-    "static/media/code-quiz-screenshot.png": "/static/media/code-quiz-screenshot.ea0661e342e781aa5bc6.png",
-    "static/media/prework-image.png": "/static/media/prework-image.290c5b618d975b139ad0.png",
-    "static/media/Weather-dash-screenshot.png": "/static/media/Weather-dash-screenshot.8a515b9de142c631a7d3.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.104a1898.css.map": "/static/css/main.104a1898.css.map",
-    "main.a1ef3d20.js.map": "/static/js/main.a1ef3d20.js.map"
+    "main.css": "/react-portfolio/static/css/main.104a1898.css",
+    "main.js": "/react-portfolio/static/js/main.bb32852b.js",
+    "static/media/betterreadsscreenshot.png": "/react-portfolio/static/media/betterreadsscreenshot.cc6e493a6958daf99101.png",
+    "static/media/crypto-gif-screenshot.png": "/react-portfolio/static/media/crypto-gif-screenshot.aae4f9e1e261a23ba01b.png",
+    "static/media/profile-photo.JPG": "/react-portfolio/static/media/profile-photo.5fce2480e97c8d5c8904.JPG",
+    "static/media/team-profiler-screenshot.png": "/react-portfolio/static/media/team-profiler-screenshot.7f18b536734c3f2daf3b.png",
+    "static/media/code-quiz-screenshot.png": "/react-portfolio/static/media/code-quiz-screenshot.ea0661e342e781aa5bc6.png",
+    "static/media/prework-image.png": "/react-portfolio/static/media/prework-image.290c5b618d975b139ad0.png",
+    "static/media/Weather-dash-screenshot.png": "/react-portfolio/static/media/Weather-dash-screenshot.8a515b9de142c631a7d3.png",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.104a1898.css.map": "/react-portfolio/static/css/main.104a1898.css.map",
+    "main.bb32852b.js.map": "/react-portfolio/static/js/main.bb32852b.js.map"
   },
   "entrypoints": [
     "static/css/main.104a1898.css",
-    "static/js/main.a1ef3d20.js"
+    "static/js/main.bb32852b.js"
   ]
 }
