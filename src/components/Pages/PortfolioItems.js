@@ -5,12 +5,21 @@ import PreWImg from '../../assets/images/prework-image.png';
 import WDScreenShot from '../../assets/images/Weather-dash-screenshot.png';
 import CodeQuizShot from '../../assets/images/code-quiz-screenshot.png';
 import TeamProfShot from '../../assets/images/team-profiler-screenshot.png';
+import CarShopShot from '../../assets/images/The-Car-Shop-screenshot.png';
 
 function PortfolioItems() {
     return (
         <section className="work" id="work">
             <h2>My Projects</h2>
             <div className='portfoliocards'>
+            <div className='project'>
+                    <h2>The Car Shop</h2>
+                    <a href="https://smokey-nagata.herokuapp.com/">
+                        <img src={CarShopShot} className="workimage" id="prework" alt="thumbnail of The Car Shop website"></img>
+                    </a> 
+                    <p>A platform for bidding on or auctioning off a personal vehicle</p>
+                    <a className='githublink' href="https://github.com/JuicinessJ/smokey-nagata">The Car Shop Repo</a>
+                </div>
                 <div className='project'>
                     <h2>Better Reads</h2>
                     <a href="https://even-better-reads.herokuapp.com/login">
@@ -48,14 +57,6 @@ function PortfolioItems() {
                     <img src={TeamProfShot} className="workimage" alt="screenshot of the application-generated employee webpage"></img>
                     <p>A command line application that generates employee ID cards on a webpage</p>
                     <a className='githublink' href="https://github.com/gibsonberglund/team-profiler">Team Profiler Github Repo</a>
-                </div>
-                <div className='project'>
-                    <h2>Prework Study Guide</h2>
-                    <a href="https://gibsonberglund.github.io/prework-study-guide/">
-                        <img src={PreWImg} className="workimage" id="prework" alt="thumbnail of prework study guide"></img>
-                    </a> 
-                    <p>I'm not even going to use this</p>
-                    <a className='githublink' href="https://github.com/gibsonberglund/prework-study-guide">Change this one</a>
                 </div>
             </div>
         </section>
