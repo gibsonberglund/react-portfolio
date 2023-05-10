@@ -19,7 +19,7 @@ function PortfolioItems() {
         <section className="work" id="work">
             <h2>My Projects</h2>
             <div className='portfoliocards'>
-            <a className='projectcard' href="https://smokey-nagata.herokuapp.com/"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+            <a className='projectcard' href="https://smokey-nagata.herokuapp.com/"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image={CarShopShot}
@@ -39,7 +39,7 @@ function PortfolioItems() {
                     </CardActions>
                 </Card>
                 </a>
-                <a className='projectcard' href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                <a className='projectcard' href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image={CrypGifImg}
@@ -59,7 +59,7 @@ function PortfolioItems() {
                     </CardActions>
                 </Card>
                 </a>
-                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image={WDScreenShot}
@@ -79,7 +79,7 @@ function PortfolioItems() {
                     </CardActions>
                 </Card>
                 </a>
-                <a href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                <a href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image={BetReadImg}

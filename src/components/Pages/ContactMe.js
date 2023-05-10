@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
+import ResumePDF from '../../assets/Resume-Gibson-Berglund-2023.pdf'
+
 function ContactMe() {
   return (
    <section className='contactandresume' >
@@ -28,7 +30,7 @@ function ContactMe() {
         </div>
         <div className='resumediv'>
             <div className='resumebtn'>
-                <Button variant="contained" href='https://docs.google.com/document/d/15oTgBFRLvlAsRfB13b0CTLS3y6-WbxgEsc0NSSbOY-Y/edit?usp=sharing' color="secondary">View/Download My Resume</Button>
+                <Button href={ResumePDF} download={ResumePDF} style={{width: '150px', textAlign: 'center'}}variant="contained" color="secondary">View/Download My Resume</Button>
             </div>
         </div>
     </section>
