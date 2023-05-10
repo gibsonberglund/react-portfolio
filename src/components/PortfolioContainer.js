@@ -16,9 +16,6 @@ function DisplayPortfolio() {
       if (currentPage === 'ContactMe') {
         return <ContactMe />;
       }
-      if (currentPage === 'Resume') {
-        return <Resume />;
-      }
       return <AboutMe />;
     }
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import BetReadImg from '../../assets/images/betterreadsscreenshot.png';
-import CrypGifImg from '../../assets/images/crypto-gif-screenshot.png';
+import CrypGifImg from '../../assets/images/memecoin-screenshot2.jpg';
 import PreWImg from '../../assets/images/prework-image.png';
-import WDScreenShot from '../../assets/images/Weather-dash-screenshot.png';
+import WDScreenShot from '../../assets/images/reactuweather-screenshot.jpg';
 import CodeQuizShot from '../../assets/images/code-quiz-screenshot.png';
 import TeamProfShot from '../../assets/images/team-profiler-screenshot.png';
-import CarShopShot from '../../assets/images/The-Car-Shop-screenshot.png';
+import CarShopShot from '../../assets/images/Car-shop-screenshot.jpg';
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -30,7 +30,7 @@ function PortfolioItems() {
                         <p className='projecttitle'>The Car Shop</p>
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        <p className='projectdesc'>A platform for bidding on or auctioning off a personal vehicle</p>
+                        <p className='projectdesc'>A platform for bidding on or auctioning off a personal vehicle (Collaboration)</p>
                         <p className='projectdesc2'>Skills demonstrated: ReactJS, Node, MUI style framework</p>
                         </Typography>
                     </CardContent>
@@ -39,7 +39,7 @@ function PortfolioItems() {
                     </CardActions>
                 </Card>
                 </a>
-                <a className='projectcard' href="https://github.com/gibsonberglund/Crypto-MEMES"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                <a className='projectcard' href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image={CrypGifImg}
@@ -50,12 +50,12 @@ function PortfolioItems() {
                         <p className='projecttitle'>MemeCoin</p>
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        <p className='projectdesc'>A meme-based cryptocurrency price tracker</p>
+                        <p className='projectdesc'>A meme-based cryptocurrency price tracker (Collaboration)</p>
                         <p className='projectdesc2'>Skills demonstrated: Third-party API integration, Javascript, Vulma style framework</p>
                         </Typography>
                     </CardContent>
                     <CardActions>
-                    <Button size="small"><a className='githublink' href="https://github.com/jajohnson0201/Crypto-MEMES">View Repo</a></Button>
+                    <Button size="small"><a className='githublink' href="https://github.com/gibsonberglund/Crypto-MEMES">View Repo</a></Button>
                     </CardActions>
                 </Card>
                 </a>
@@ -90,7 +90,7 @@ function PortfolioItems() {
                         <p className='projecttitle'>Better Reads</p>
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        <p className='projectdesc'>A digital reading list and book search engine</p>
+                        <p className='projectdesc'>A digital reading list and book search engine (Collaboration)</p>
                         <p className='projectdesc2'>Skills demonstrated: Handlebars, Node, Express</p>
                         </Typography>
                     </CardContent>

@@ -1,9 +1,12 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 
 function Resume() {
     return (
-<div>
-    <a className='resumelink' href='https://docs.google.com/document/d/1u4NL1CkakeYskCK3FQ1M3_MGEXl0VH6jr3AIgwtqLqQ/edit?usp=sharing'>Click here to view or download my resume</a>
+<div className='resumepage'>
+    <div className='resumebtn'>
+        <Button variant="contained" href='https://docs.google.com/document/d/1u4NL1CkakeYskCK3FQ1M3_MGEXl0VH6jr3AIgwtqLqQ/edit?usp=sharing' color="secondary">View/Download My Resume</Button>
+    </div>
 </div>
     );
 };

@@ -1,16 +1,38 @@
-import React from 'react';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 function ContactMe() {
-
-    return (
+  return (
+   <section className='contactandresume' >
         <div className='contactform'>
-            <input type='text' className='smallinput' id='useremail' placeholder='Email'></input>
-            <input type='text' className='smallinput' placeholder='Name'></input>
-            <textarea type='text' rows='4' className='largeinput' placeholder='Message'></textarea>
-            <btn className='submitbtn'>Submit</btn>
+            <Box
+            component="form"
+            sx={{
+                '& > :not(style)': { m: 1, width: '30ch' },
+            }}
+            noValidate
+            autoComplete="off"
+            >
+                <h3 style={{textAlign: 'center'}}>Contact Me</h3>
+                <div><TextField fullWidth id="filled-basic" label="Name" variant="filled" /></div>
+                <div><TextField fullWidth id="filled-basic" label="Email" variant="filled" /></div>
+                <div className='contactmemessage'>
+                    <TextField fullWidth id="filled-multiline-static" label="Message" multiline rows={4} variant="filled" />
+                </div>
+                <div className='submitbtn'>
+                <Button variant="outlined" color="primary">Submit</Button>
+                </div>
+            </Box>
         </div>
-    )
-
-};
+        <div className='resumediv'>
+            <div className='resumebtn'>
+                <Button variant="contained" href='https://docs.google.com/document/d/15oTgBFRLvlAsRfB13b0CTLS3y6-WbxgEsc0NSSbOY-Y/edit?usp=sharing' color="secondary">View/Download My Resume</Button>
+            </div>
+        </div>
+    </section>
+  );
+}
 
 export default ContactMe;
