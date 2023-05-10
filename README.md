@@ -23,6 +23,9 @@ https://gibsonberglund.github.io/react-portfolio/
 ## Credits
         U of MN Web Dev Bootcamp
 
+        https://www.w3schools.com/cssref/pr_background-attachment.php
+        
+
 ## License
         This application is covered under the MIT License
         Click the link below to learn more about this license:

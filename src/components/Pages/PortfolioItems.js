@@ -7,57 +7,98 @@ import CodeQuizShot from '../../assets/images/code-quiz-screenshot.png';
 import TeamProfShot from '../../assets/images/team-profiler-screenshot.png';
 import CarShopShot from '../../assets/images/The-Car-Shop-screenshot.png';
 
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+
 function PortfolioItems() {
     return (
         <section className="work" id="work">
             <h2>My Projects</h2>
             <div className='portfoliocards'>
-            <div className='project'>
-                    <h2>The Car Shop</h2>
-                    <a href="https://smokey-nagata.herokuapp.com/">
-                        <img src={CarShopShot} className="workimage" id="prework" alt="thumbnail of The Car Shop website"></img>
-                    </a> 
-                    <p>A platform for bidding on or auctioning off a personal vehicle</p>
-                    <a className='githublink' href="https://github.com/JuicinessJ/smokey-nagata">The Car Shop Repo</a>
-                </div>
-                <div className='project'>
-                    <h2>Better Reads</h2>
-                    <a href="https://even-better-reads.herokuapp.com/login">
-                        <img src={BetReadImg} className="album" alt="thumbnail of better-reads search page"></img>
-                    </a>
-                    <p>A digital reading list and book search engine</p>
-                    <a className='githublink' href="https://github.com/moxamadfarax/better_reads">Better Reads Github Repo</a>
-                </div>
-                <div className='project'>
-                    <h2>Crypto-Gif</h2>
-                    <a href="https://jajohnson0201.github.io/Crypto-MEMES/">
-                        <img src={CrypGifImg} className="workimage" alt="screenshot of the Crypto-Gif website"></img>
-                    </a>
-                    <p>A meme-based cryptocurrency price tracker</p>
-                    <a className='githublink' href="https://github.com/jajohnson0201/Crypto-MEMES">Crypto-Gif Github Repo</a>
-                </div>
-                <div className='project'>
-                    <h2>Weather Dashboard</h2>
-                    <a href="https://gibsonberglund.github.io/weather-dashboard/">
-                        <img src={WDScreenShot} className="workimage" alt="screenshot of the Weather Dashboard website"></img>
-                    </a>
-                    <p>Search for the weekly weather forecast by U.S. city</p>
-                    <a className='githublink' href="https://github.com/gibsonberglund/weather-dashboard">Weather Dashboard Github Repo</a>
-                </div>
-                <div className='project'>
-                    <h2>Code Quiz</h2>
-                    <a href="https://gibsonberglund.github.io/code-quiz/">
-                        <img src={CodeQuizShot} className="workimage" alt="screenshot of the Code Quiz website"></img>
-                    </a>
-                    <p>An online quiz for basic Web Development topics</p>
-                    <a className='githublink' href="https://github.com/gibsonberglund/code-quiz">Code Quiz Github Repo</a>
-                </div>
-                <div className='project'>
-                    <h2>Team Profiler</h2>
-                    <img src={TeamProfShot} className="workimage" alt="screenshot of the application-generated employee webpage"></img>
-                    <p>A command line application that generates employee ID cards on a webpage</p>
-                    <a className='githublink' href="https://github.com/gibsonberglund/team-profiler">Team Profiler Github Repo</a>
-                </div>
+            <a className='projectcard' href="https://smokey-nagata.herokuapp.com/"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                    <CardMedia
+                        sx={{ height: 300 }}
+                        image={CarShopShot}
+                        title="The Car Shop"
+                    />
+                    <CardContent className='cardtext'>
+                        <Typography gutterBottom variant="h4" component="div">
+                        <p className='projecttitle'>The Car Shop</p>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        <p className='projectdesc'>A platform for bidding on or auctioning off a personal vehicle</p>
+                        <p className='projectdesc2'>Skills demonstrated: ReactJS, Node, MUI style framework</p>
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                    <Button className='repobtn' size="small"><a href="https://github.com/gibsonberglund/smokey-nagata">View Repo</a></Button>
+                    </CardActions>
+                </Card>
+                </a>
+                <a className='projectcard' href="https://github.com/gibsonberglund/Crypto-MEMES"><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                    <CardMedia
+                        sx={{ height: 300 }}
+                        image={CrypGifImg}
+                        title="MemeCoin"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="div">
+                        <p className='projecttitle'>MemeCoin</p>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        <p className='projectdesc'>A meme-based cryptocurrency price tracker</p>
+                        <p className='projectdesc2'>Skills demonstrated: Third-party API integration, Javascript, Vulma style framework</p>
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                    <Button size="small"><a className='githublink' href="https://github.com/jajohnson0201/Crypto-MEMES">View Repo</a></Button>
+                    </CardActions>
+                </Card>
+                </a>
+                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                    <CardMedia
+                        sx={{ height: 300 }}
+                        image={WDScreenShot}
+                        title="React-u-Weather"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="div">
+                        <p className='projecttitle'>React-u-Weather</p>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        <p className='projectdesc'>Current weather report and forecast, with a sense of humor</p>
+                        <p className='projectdesc2'>Skills demonstrated: Javascript, CSS, Third-party API integration</p>
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                    <a className='githublink' href="https://github.com/gibsonberglund/weather-dashboard"><Button size="small">View Repo</Button></a>
+                    </CardActions>
+                </Card>
+                </a>
+                <a href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={{ width: 500, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%" }}>
+                    <CardMedia
+                        sx={{ height: 300 }}
+                        image={BetReadImg}
+                        title="Better Reads"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="div">
+                        <p className='projecttitle'>Better Reads</p>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        <p className='projectdesc'>A digital reading list and book search engine</p>
+                        <p className='projectdesc2'>Skills demonstrated: Handlebars, Node, Express</p>
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                    <a className='githublink' href="https://github.com/gibsonberglund/better_reads"><Button size="small">View Repo</Button></a>
+                    </CardActions>
+                </Card>
+                </a>
             </div>
         </section>
     )

@@ -24,23 +24,6 @@ function DisplayPortfolio() {
 
 const handlePageChange = (page) => setCurrentPage(page);
 
-// let submitBtn = document.querySelector('.submitbtn');
-//     let userEmail = document.querySelector('useremail');
-
-//     function displayEmailError() {
-//         userEmail.placeholder = 'Please enter a valid email address';
-//         userEmail.setAttribute('style', 'color: red;');
-//     }
-
-//     submitBtn.addEventListener('click', function formSubmit() {
-//         if(userEmail.value === /.*@.*.(com|net)/) {
-//             return;
-//         } else {
-//             displayEmailError();
-//         };
-//     }
-//     );
-
 return (
     <div>
         <PortfolioNav currentPage={currentPage} handlePageChange={handlePageChange} />
