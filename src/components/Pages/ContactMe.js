@@ -8,7 +8,7 @@ import ResumePDF from '../../assets/Resume-Gibson-Berglund-2023.pdf'
 function ContactMe() {
   return (
    <section className='contactandresume' >
-        <div className='contactform'>
+        {/* <div className='contactform'>
             <Box
             component="form"
             sx={{
@@ -27,10 +27,10 @@ function ContactMe() {
                 <Button variant="outlined" color="primary">Submit</Button>
                 </div>
             </Box>
-        </div>
+        </div> */}
         <div className='resumediv'>
             <div className='resumebtn'>
-                <Button href={ResumePDF} download={ResumePDF} style={{width: '150px', textAlign: 'center'}}variant="contained" color="secondary">View/Download My Resume</Button>
+                <Button href={ResumePDF} download={ResumePDF} style={{width: '150px', textAlign: 'center'}}variant="contained" color="secondary">Download My Resume</Button>
             </div>
         </div>
     </section>
