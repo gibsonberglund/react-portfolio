@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.104a1898.css",
-    "main.js": "/react-portfolio/static/js/main.c0b94a0f.js",
+    "main.css": "/react-portfolio/static/css/main.8b63b447.css",
+    "main.js": "/react-portfolio/static/js/main.462ea389.js",
     "static/media/betterreadsscreenshot.png": "/react-portfolio/static/media/betterreadsscreenshot.cc6e493a6958daf99101.png",
-    "static/media/The-Car-Shop-screenshot.png": "/react-portfolio/static/media/The-Car-Shop-screenshot.ab3d25de4c28fe96005b.png",
-    "static/media/crypto-gif-screenshot.png": "/react-portfolio/static/media/crypto-gif-screenshot.aae4f9e1e261a23ba01b.png",
-    "static/media/profile-photo.JPG": "/react-portfolio/static/media/profile-photo.5fce2480e97c8d5c8904.JPG",
+    "static/media/profile-photo.jpg": "/react-portfolio/static/media/profile-photo.5fce2480e97c8d5c8904.jpg",
+    "static/media/reactuweather-screenshot.jpg": "/react-portfolio/static/media/reactuweather-screenshot.0893bf8ba8fcd3324433.jpg",
+    "static/media/greek-head.png": "/react-portfolio/static/media/greek-head.97514593879e82632d1e.png",
+    "static/media/Car-shop-screenshot.jpg": "/react-portfolio/static/media/Car-shop-screenshot.8e0ce12ce4c9cda32ef8.jpg",
+    "static/media/memecoin-screenshot2.jpg": "/react-portfolio/static/media/memecoin-screenshot2.63875ea586d86dcfeb10.jpg",
+    "static/media/new-city-background.jpeg": "/react-portfolio/static/media/new-city-background.b23321bb854c8498bb9a.jpeg",
+    "static/media/Resume-Gibson-Berglund-2023.pdf": "/react-portfolio/static/media/Resume-Gibson-Berglund-2023.71172ca3d3f52548ed2e.pdf",
     "static/media/team-profiler-screenshot.png": "/react-portfolio/static/media/team-profiler-screenshot.7f18b536734c3f2daf3b.png",
     "static/media/code-quiz-screenshot.png": "/react-portfolio/static/media/code-quiz-screenshot.ea0661e342e781aa5bc6.png",
     "static/media/prework-image.png": "/react-portfolio/static/media/prework-image.290c5b618d975b139ad0.png",
-    "static/media/Weather-dash-screenshot.png": "/react-portfolio/static/media/Weather-dash-screenshot.8a515b9de142c631a7d3.png",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.104a1898.css.map": "/react-portfolio/static/css/main.104a1898.css.map",
-    "main.c0b94a0f.js.map": "/react-portfolio/static/js/main.c0b94a0f.js.map"
+    "main.8b63b447.css.map": "/react-portfolio/static/css/main.8b63b447.css.map",
+    "main.462ea389.js.map": "/react-portfolio/static/js/main.462ea389.js.map"
   },
   "entrypoints": [
-    "static/css/main.104a1898.css",
-    "static/js/main.c0b94a0f.js"
+    "static/css/main.8b63b447.css",
+    "static/js/main.462ea389.js"
   ]
 }
