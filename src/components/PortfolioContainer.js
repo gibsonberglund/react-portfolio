@@ -3,7 +3,7 @@ import PortfolioItems from './Pages/PortfolioItems';
 import PortfolioNav from './PortfolioNav';
 import AboutMe from './Pages/AboutMe';
 import ContactMe from './Pages/ContactMe';
-import Resume from './Pages/Resume';
+import Resume from './Footer';
 
 function DisplayPortfolio() {
     const [currentPage, setCurrentPage] = useState('About Me');
