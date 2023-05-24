@@ -10,8 +10,8 @@ function AboutMe() {
                 <img src={ProfilePic} className='profilepic' alt='Photo of Gibson Berglund with a cat on his shoulder'></img>
             </div>
             <div className='skillsection'>
-                <h3 style={{fontFamily: 'Permanent Marker'}}>Skills: </h3>
-                <p className='skillslist'>HTML, CSS, Javascript, Node, Express, SQL, MySQL, NoSQL, MongoDB, Handlebars, React, Atlas, Git</p>
+                <h2>Skills: </h2>
+                <p className='skillslist'>HTML, CSS, Javascript, Node, Express, SQL, MySQL, NoSQL, MongoDB, Handlebars, React, Apollo, Git</p>
             </div>
         </div>
     )
