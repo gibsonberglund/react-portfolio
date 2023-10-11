@@ -9,12 +9,16 @@ import Resume from './Footer';
 function DisplayPortfolio() {
     const [currentPage, setCurrentPage] = useState('PortfolioItems');
 
-    const [bigCard, setBigCard] = useState(false);
-    
-    // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-    const renderPage = () => {
+    const [bigItemCarShop, setBigItemCarShop] = useState(false);
+    const [bigItemBetterReads, setBigItemBetterReads] = useState(false);
+    const [bigItemMemeCoin, setBigItemMemeCoin] = useState(false);
+    const [bigItemWeather, setBigItemWeather] = useState(false);
+
+  const renderPage = () => {
       if (currentPage === 'PortfolioItems') {
-        return <PortfolioItems bigCard={bigCard} setBigCard={setBigCard} />;
+        return <PortfolioItems
+        bigItemCarShop={bigItemCarShop} setBigItemCarShop={setBigItemCarShop} bigItemBetterReads={bigItemBetterReads} setBigItemBetterReads={setBigItemBetterReads} bigItemMemeCoin={bigItemMemeCoin} setBigItemMemeCoin={setBigItemMemeCoin} bigItemWeather={bigItemWeather} setBigItemWeather={setBigItemWeather}
+          />;
       }
       if (currentPage === 'ContactMe') {
         return <ContactMe />;

@@ -26,6 +26,8 @@ https://gibsonberglund.github.io/react-portfolio/
         https://www.w3schools.com/cssref/pr_background-attachment.php
 
         https://codepen.io/Murtaxa/pen/egrRbN
+
+        https://www.delftstack.com/howto/react/react-conditional-classname/
         
 
 ## License

@@ -15,10 +15,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import classNames from 'classnames';
 
-function PortfolioItems({bigCard, setBigCard}) {
-
-
-
+function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, setBigItemBetterReads, bigItemMemeCoin, setBigItemMemeCoin, bigItemWeather, setBigItemWeather}) {
 
     return (
         <section className="work" id="work">
@@ -26,19 +23,21 @@ function PortfolioItems({bigCard, setBigCard}) {
                 <h2 className='skillstitle'>Skills</h2>
                 <div className='listcontainer'>
                     <div className='listgroup'>
-                        <h3>JavaScript</h3>
-                        <h3>React</h3>
-                        <h3>CSS</h3>
+                        <h3 className={classNames({"skillitem": true, "bigItem": bigItemWeather || bigItemMemeCoin})} >JavaScript</h3>
+                        <h3 className={classNames({"skillitem": true, "bigItem": bigItemCarShop})}>React</h3>
+                        <h3 className={classNames({"skillitem": true, "bigItem": bigItemWeather || bigItemMemeCoin})}>CSS</h3>
                     </div>
                     <div className='listgroup'>
-                        <h3>RESTful API</h3>
-                        <h3>Handelbars</h3>
-                        <h3>NodeJS</h3>
+                        <h3 className={classNames({"skillitem": true, "bigItem": bigItemMemeCoin || bigItemWeather || bigItemBetterReads})}>RESTful API</h3>
+                        <h3 className={classNames({"skillitem": true, "bigItem": bigItemBetterReads})}>Handelbars</h3>
+                        <h3 className={classNames({"skillitem": true, "bigItem": bigItemCarShop || bigItemBetterReads})}>NodeJS</h3>
                     </div>
                 </div>
             </div>
             <div className='portfoliocards'>
-                <div className={classNames({"projectcard": true, "bigCard": bigCard})} onClick={()=>setBigCard(!bigCard)}><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
+                <div className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                onMouseEnter={()=>setBigItemCarShop(!bigItemCarShop)} onMouseLeave={()=>setBigItemCarShop(!bigItemCarShop)}
+                >
                     <CardMedia
                         sx={{ height: 200 }}
                         image={CarShopShot}
@@ -58,7 +57,9 @@ function PortfolioItems({bigCard, setBigCard}) {
                     </CardActions>
                     </Card>
                 </div>
-                <a id='memeCoin' className='projectcard' href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
+                <a className='projectcard' href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                onMouseEnter={()=>setBigItemMemeCoin(!bigItemMemeCoin)} onMouseLeave={()=>setBigItemMemeCoin(!bigItemMemeCoin)}
+                >
                     <CardMedia
                         sx={{ height: 200 }}
                         image={CrypGifImg}
@@ -78,27 +79,9 @@ function PortfolioItems({bigCard, setBigCard}) {
                     </CardActions>
                 </Card>
                 </a>
-                <a id='weather' href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
-                    <CardMedia
-                        sx={{ height: 200 }}
-                        image={WDScreenShot}
-                        title="React-u-Weather"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h4" component="div">
-                        <p className='projecttitle'>React-u-Weather</p>
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                        {/* <p className='projectdesc'>Current weather report and forecast, with a sense of humor</p> */}
-                        {/* <p className='projectdesc2'>Skills demonstrated: Javascript, CSS, Third-party API integration</p> */}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                    <a className='githublink' href="https://github.com/gibsonberglund/weather-dashboard"><Button size="small">View Repo</Button></a>
-                    </CardActions>
-                </Card>
-                </a>
-                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}>
+                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                onMouseEnter={()=>setBigItemBetterReads(!bigItemBetterReads)} onMouseLeave={()=>setBigItemBetterReads(!bigItemBetterReads)}
+                >
                     <CardMedia
                         sx={{ height: 200 }}
                         image={BetReadImg}
@@ -115,6 +98,28 @@ function PortfolioItems({bigCard, setBigCard}) {
                     </CardContent>
                     <CardActions>
                     <a className='githublink' href="https://github.com/gibsonberglund/better_reads"><Button size="small">View Repo</Button></a>
+                    </CardActions>
+                </Card>
+                </a>
+                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                onMouseEnter={()=>setBigItemWeather(!bigItemWeather)} onMouseLeave={()=>setBigItemWeather(!bigItemWeather)}
+                >
+                    <CardMedia
+                        sx={{ height: 200 }}
+                        image={WDScreenShot}
+                        title="React-u-Weather"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="div">
+                        <p className='projecttitle'>React-u-Weather</p>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        {/* <p className='projectdesc'>Current weather report and forecast, with a sense of humor</p> */}
+                        {/* <p className='projectdesc2'>Skills demonstrated: Javascript, CSS, Third-party API integration</p> */}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                    <a className='githublink' href="https://github.com/gibsonberglund/weather-dashboard"><Button size="small">View Repo</Button></a>
                     </CardActions>
                 </Card>
                 </a>
