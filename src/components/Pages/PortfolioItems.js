@@ -35,7 +35,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                 </div>
             </div>
             <div className='portfoliocards'>
-                <div className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                <div className='projectcard'><Card sx={bigItemCarShop === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemCarShop(!bigItemCarShop)} onMouseLeave={()=>setBigItemCarShop(!bigItemCarShop)}
                 >
                     <CardMedia
@@ -57,7 +57,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                     </Card>
                 </div>
-                <a className='projectcard' href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                <a className="projectcard" href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={bigItemMemeCoin === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemMemeCoin(!bigItemMemeCoin)} onMouseLeave={()=>setBigItemMemeCoin(!bigItemMemeCoin)}
                 >
                     <CardMedia
@@ -79,7 +79,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                 </Card>
                 </a>
-                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={bigItemBetterReads === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemBetterReads(!bigItemBetterReads)} onMouseLeave={()=>setBigItemBetterReads(!bigItemBetterReads)}
                 >
                     <CardMedia
@@ -101,7 +101,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                 </Card>
                 </a>
-                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={{ width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" }}
+                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={bigItemWeather === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemWeather(!bigItemWeather)} onMouseLeave={()=>setBigItemWeather(!bigItemWeather)}
                 >
                     <CardMedia

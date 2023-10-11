@@ -36,6 +36,12 @@ code {
   text-orientation: upright;
 }
 
+.subtitle {
+  position: fixed;
+  margin-top: 40%;
+  margin-left: 2%;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -65,7 +71,6 @@ code {
   margin-left: 15%;
   max-width: 75%;
   position: center;
-  padding-top: 10%;
 }
 
 .portfoliocards {
@@ -78,6 +83,11 @@ code {
 .projectcard {
   text-decoration: none;
   margin: 2%;
+  background-color: "rgba(125, 125, 125, 0.4)";
+}
+
+.highlightCard {
+  background-color:  rgba(140, 30, 140, 0.396);
 }
 
 .bigItem {
@@ -197,11 +207,6 @@ code {
   font-size: 32px;
 }
 
-.subtitle {
-  color: rgba(0, 0, 0, 0.601);
-  margin: 1%;
-}
-
 .contactandresume {
   display: flex;
   justify-content: center;
@@ -211,6 +216,7 @@ code {
   display: flex;
   justify-content: center;
   padding-top: 15%;
+  margin-top: -10%;
 }
 
 .project p {
@@ -260,6 +266,7 @@ code {
   margin-left: 30%;
   background-color: rgba(64, 83, 85, 0.4);
   border-radius: 66% 33%;
+  height: 130px;
 }
 
 .skillsection {

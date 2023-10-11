@@ -23,7 +23,9 @@ function DisplayPortfolio() {
       if (currentPage === 'ContactMe') {
         return <ContactMe />;
       }
-      return <AboutMe />;
+      if (currentPage === 'AboutMe') {
+        return <AboutMe />;
+      }
     }
 
 const handlePageChange = (page) => setCurrentPage(page);
