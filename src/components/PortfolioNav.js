@@ -5,7 +5,8 @@ import React from 'react';
 function PortfolioNav({ currentPage, handlePageChange }) {
   return (
     <section>
-      <h1 className='sitetitle'>Gibson Berglund<small className='subtitle'>Full Stack Web Developer</small></h1>
+      <h1 className='sitetitle'>GibsonBerglund</h1>
+      <h2 className='subtitle'>Full Stack Web Developer</h2>
       <ul className="navbar">
         <li className="nav-item">
           <a

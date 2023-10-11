@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assets/images/new-city-background.jpeg');
+  background-image: url('./assets/images/sea-maldives.jpg');
   background-size:100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,16 +32,19 @@ code {
   font-family: 'Permanent Marker', cursive;
   font-size: 36px;
   text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
 
 .navbar {
+  display: flex;
+  justify-content: center;
   margin-left: -11%;
   font-size: 22px;
   list-style-type: none;
-  position: fixed;
 }
 .nav-item {
-  margin: 2px;
+  margin: 2%;
   color: white;
 }
 
@@ -50,14 +53,11 @@ code {
   background-size: 50px 50px;
 }
 
-.work {
-  display: inline-block;
-  margin-top: 10%;
-}
-
 .work h2 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 20%;
+  margin-bottom: -5%;
 }
 
 .aboutmesection {
@@ -78,6 +78,13 @@ code {
 .projectcard {
   text-decoration: none;
   margin: 2%;
+}
+
+.bigCard {
+  text-decoration: none;
+  margin: 2%;
+  width: 500px;
+  height: 300px;
 }
 
 .projecttitle {
@@ -182,10 +189,12 @@ code {
 
 .nav-link {
   color: rgb(49, 13, 49);
+  transition: 1s;
 }
 
 .nav-link-active {
   color: rgb(197, 107, 197);
+  font-size: 32px;
 }
 
 .subtitle {
@@ -235,6 +244,22 @@ code {
 
 .sitebutton {
   background-color: white;
+}
+
+.listgroup {
+  display: flex;
+  justify-content: center;
+}
+
+.listgroup h3 {
+  margin: 2%;
+}
+
+.listcontainer {
+  width: 40%;
+  margin-left: 30%;
+  background-color: rgba(64, 83, 85, 0.4);
+  border-radius: 66% 33%;
 }
 
 .skillsection {
@@ -329,10 +354,7 @@ transform: translateX(-100%);
 }
 
 @media screen and (min-width: 988px) {
-  .navbar {
-    margin-left: 1%;
-    margin-top: 6%;
-  }
+
   .aboutmesection {
     margin-left: 0%;
     max-width: 100%;
