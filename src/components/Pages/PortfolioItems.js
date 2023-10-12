@@ -20,7 +20,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
     return (
         <section className="work" id="work">
             <div>
-                <h2 className='skillstitle'>Skills</h2>
+                <h2 className='skillstitle' style={{fontSize: '36px',   color: 'rgb(197, 107, 197)'}}>Skills</h2>
                 <div className='listcontainer'>
                     <div className='listgroup'>
                         <h3 className={classNames({"skillitem": true, "bigItem": bigItemWeather || bigItemMemeCoin})} >JavaScript</h3>
@@ -35,15 +35,15 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                 </div>
             </div>
             <div className='portfoliocards'>
-                <div className='projectcard'><Card sx={bigItemCarShop === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
+                <div className='projectcard'><Card sx={bigItemCarShop === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: 'rgb(197, 107, 197)', transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemCarShop(!bigItemCarShop)} onMouseLeave={()=>setBigItemCarShop(!bigItemCarShop)}
                 >
                     <CardMedia
-                        sx={{ height: 200 }}
+                        sx={{ height: 150 }}
                         image={CarShopShot}
                         title="The Car Shop"
                     />
-                    <CardContent className='cardtext'>
+                    <CardContent sx={{padding: '0px'}} className='cardtext'>
                         <Typography gutterBottom variant="h4" component="div">
                         <p className='projecttitle'>The Car Shop</p>
                         </Typography>
@@ -57,15 +57,15 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                     </Card>
                 </div>
-                <a className="projectcard" href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={bigItemMemeCoin === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
+                <a className="projectcard" href="https://gibsonberglund.github.io/Crypto-MEMES/"><Card sx={bigItemMemeCoin === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: 'rgb(197, 107, 197)', transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemMemeCoin(!bigItemMemeCoin)} onMouseLeave={()=>setBigItemMemeCoin(!bigItemMemeCoin)}
                 >
                     <CardMedia
-                        sx={{ height: 200 }}
+                        sx={{ height: 150 }}
                         image={CrypGifImg}
                         title="MemeCoin"
                     />
-                    <CardContent>
+                    <CardContent sx={{padding: '0px'}}>
                         <Typography gutterBottom variant="h4" component="div">
                         <p className='projecttitle'>MemeCoin</p>
                         </Typography>
@@ -79,15 +79,15 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                 </Card>
                 </a>
-                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={bigItemBetterReads === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
+                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={bigItemBetterReads === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: 'rgb(197, 107, 197)', transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemBetterReads(!bigItemBetterReads)} onMouseLeave={()=>setBigItemBetterReads(!bigItemBetterReads)}
                 >
                     <CardMedia
-                        sx={{ height: 200 }}
+                        sx={{ height: 150 }}
                         image={BetReadImg}
                         title="Better Reads"
                     />
-                    <CardContent>
+                    <CardContent sx={{padding: '0px'}}>
                         <Typography gutterBottom variant="h4" component="div">
                         <p className='projecttitle'>Better Reads</p>
                         </Typography>
@@ -101,15 +101,15 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                 </Card>
                 </a>
-                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={bigItemWeather === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: "rgba(140, 30, 140, 0.4)", transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
+                <a href="https://gibsonberglund.github.io/weather-dashboard/" className='projectcard'><Card sx={bigItemWeather === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: 'rgb(197, 107, 197)', transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemWeather(!bigItemWeather)} onMouseLeave={()=>setBigItemWeather(!bigItemWeather)}
                 >
                     <CardMedia
-                        sx={{ height: 200 }}
+                        sx={{ height: 150 }}
                         image={WDScreenShot}
                         title="React-u-Weather"
                     />
-                    <CardContent>
+                    <CardContent sx={{padding: '0px'}}>
                         <Typography gutterBottom variant="h4" component="div">
                         <p className='projecttitle'>React-u-Weather</p>
                         </Typography>

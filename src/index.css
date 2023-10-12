@@ -40,6 +40,7 @@ code {
   position: fixed;
   margin-top: 40%;
   margin-left: 2%;
+  font-size: 32px;
 }
 
 .navbar {
@@ -57,6 +58,10 @@ code {
 .nav-item:hover::after {
   background-image: url('./assets/images/greek-head.png');
   background-size: 50px 50px;
+}
+
+.work {
+  margin-top: 3%;
 }
 
 .work h2 {
@@ -90,17 +95,22 @@ code {
   background-color:  rgba(140, 30, 140, 0.396);
 }
 
+/* .css-46bh2p-MuiCardContent-root {
+  padding: 0px;
+} */
+
 .bigItem {
   text-decoration: none;
   margin: 2%;
   font-size: 26px;
-  color: rgb(140, 30, 140);
+  color: rgb(197, 107, 197);
 }
 
 .projecttitle {
   font-family: 'Permanent Marker', cursive;
   color: rgb(223, 223, 223);
   text-align: center;
+  font-size: 28px;
 }
 
 .projectdesc {
