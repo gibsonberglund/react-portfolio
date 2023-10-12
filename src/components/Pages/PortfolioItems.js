@@ -53,7 +53,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button className='repobtn' size="small"><a href="https://github.com/gibsonberglund/smokey-nagata">View Repo</a></Button>
+                        <Button className='repobtn' size="small"><a href="https://github.com/gibsonberglund/smokey-nagata">Collaboration</a></Button>
                     </CardActions>
                     </Card>
                 </div>
@@ -75,7 +75,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                         </Typography>
                     </CardContent>
                     <CardActions>
-                    <Button size="small"><a className='githublink' href="https://github.com/gibsonberglund/Crypto-MEMES">View Repo</a></Button>
+                    <Button size="small"><a className='githublink' href="https://github.com/gibsonberglund/Crypto-MEMES">Collaboration</a></Button>
                     </CardActions>
                 </Card>
                 </a>
@@ -97,7 +97,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                         </Typography>
                     </CardContent>
                     <CardActions>
-                    <a className='githublink' href="https://github.com/gibsonberglund/better_reads"><Button size="small">View Repo</Button></a>
+                    <Button size="small"><a className='githublink' href="https://github.com/gibsonberglund/better_reads">Collaboration</a></Button>
                     </CardActions>
                 </Card>
                 </a>
@@ -119,7 +119,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                         </Typography>
                     </CardContent>
                     <CardActions>
-                    <a className='githublink' href="https://github.com/gibsonberglund/weather-dashboard"><Button size="small">View Repo</Button></a>
+                    <Button size="small"><a className='githublink' href="https://github.com/gibsonberglund/weather-dashboard">Solo Project</a></Button>
                     </CardActions>
                 </Card>
                 </a>

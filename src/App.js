@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="portfolio-app">
       <PortfolioContainer />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

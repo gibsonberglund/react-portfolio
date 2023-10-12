@@ -3,6 +3,7 @@ import PortfolioItems from './Pages/PortfolioItems';
 import PortfolioNav from './PortfolioNav';
 import AboutMe from './Pages/AboutMe';
 import ContactMe from './Pages/ContactMe';
+import Footer from './Footer';
 import { useRef, useEffect } from "react";
 import Resume from './Footer';
 
@@ -35,6 +36,7 @@ return (
     <div>
         <PortfolioNav currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
+        <Footer currentPage={currentPage}/>
     </div>
     )
 };
