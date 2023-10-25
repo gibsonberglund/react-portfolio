@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.68100227.css",
-    "main.js": "/react-portfolio/static/js/main.8c387dde.js",
+    "main.js": "/react-portfolio/static/js/main.16e779dd.js",
     "static/media/sea-maldives.jpg": "/react-portfolio/static/media/sea-maldives.03622d8e780b2076c69b.jpg",
-    "static/media/betterreadsscreenshot.png": "/react-portfolio/static/media/betterreadsscreenshot.cc6e493a6958daf99101.png",
+    "static/media/betterreadsimage.png": "/react-portfolio/static/media/betterreadsimage.03cb6edcc5f092ec1af8.png",
     "static/media/profile-photo.jpg": "/react-portfolio/static/media/profile-photo.5fce2480e97c8d5c8904.jpg",
     "static/media/reactuweather-screenshot.jpg": "/react-portfolio/static/media/reactuweather-screenshot.0893bf8ba8fcd3324433.jpg",
     "static/media/greek-head.png": "/react-portfolio/static/media/greek-head.97514593879e82632d1e.png",
@@ -17,10 +17,10 @@
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
     "main.68100227.css.map": "/react-portfolio/static/css/main.68100227.css.map",
-    "main.8c387dde.js.map": "/react-portfolio/static/js/main.8c387dde.js.map"
+    "main.16e779dd.js.map": "/react-portfolio/static/js/main.16e779dd.js.map"
   },
   "entrypoints": [
     "static/css/main.68100227.css",
-    "static/js/main.8c387dde.js"
+    "static/js/main.16e779dd.js"
   ]
 }
