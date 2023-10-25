@@ -1,5 +1,5 @@
 import React from 'react';
-import BetReadImg from '../../assets/images/betterreadsscreenshot.png';
+import BetReadImg from '../../assets/images/betterreadsimage.png';
 import CrypGifImg from '../../assets/images/memecoin-screenshot2.jpg';
 import PreWImg from '../../assets/images/prework-image.png';
 import WDScreenShot from '../../assets/images/reactuweather-screenshot.jpg';
@@ -79,7 +79,7 @@ function PortfolioItems({bigItemCarShop, setBigItemCarShop, bigItemBetterReads, 
                     </CardActions>
                 </Card>
                 </a>
-                <a id='betterReads' href="https://github.com/gibsonberglund/better_reads" className='projectcard'><Card sx={bigItemBetterReads === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: 'rgb(197, 107, 197)', transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
+                <a id='betterReads' href="https://gibberg-better-reads-aae1d5f57d09.herokuapp.com/" className='projectcard'><Card sx={bigItemBetterReads === false ? { width: 250, backgroundColor: "rgba(125, 125, 125, 0.4)", boxShadow: "10px 10px 1px 0px rgba(0,0,0,0.2),10px 10px 10px 1px rgba(0,0,0,0.14),10px 1px 3px 1px rgba(0,0,0,0.12)", margin: "2%", borderRadius: "3%" } : { width: 250, backgroundColor: 'rgb(197, 107, 197)', transition: '0.5s', transform: 'translate(15px, 15px)', margin: "2%", borderRadius: "3%" }}
                 onMouseEnter={()=>setBigItemBetterReads(!bigItemBetterReads)} onMouseLeave={()=>setBigItemBetterReads(!bigItemBetterReads)}
                 >
                     <CardMedia
